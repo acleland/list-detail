@@ -1,6 +1,6 @@
 const dinosaurs = [
     {
-        id: 1,
+        id: '1',
         name: 'Tyrannosaurus',
         period: 'Cretaceous',
         suborder: 'Theropoda',
@@ -8,7 +8,7 @@ const dinosaurs = [
         image: './assets/dinosaurs/tyrannosaurus.png'
     },
     {
-        id: 2,
+        id: '2',
         name: 'Apatosaurus',
         period: 'Jurassic',
         suborder: 'Sauropoda',
@@ -16,7 +16,7 @@ const dinosaurs = [
         image: './assets/dinosaurs/apatosaurus.png'
     },
     {
-        id: 3,
+        id: '3',
         name: 'Stegosaurus',
         period: 'Jurassic',
         suborder: 'Thyreophora',
@@ -24,14 +24,14 @@ const dinosaurs = [
         image: './assets/dinosaurs/stegosaurus.png'
     },
     {
-        id: 4,
+        id: '4',
         name: 'Ankylosaurus',
         period: 'Cretaceous',
         suborder: 'Thyreophora',
         length: 23,
     },
     {
-        id: 5,
+        id: '5',
         name: 'Coelophysis',
         period: 'Triassic',
         suborder: 'Theropoda',
