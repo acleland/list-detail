@@ -1,13 +1,13 @@
 import { dinosaurs } from '../dino-data.js';
-import { findById } from '../utils.js';
+import { findById, renderDinoDetail } from '../utils.js';
 
 const params = new URLSearchParams(window.location.search);
 const id = params.get('id');
 const dino = findById(id, dinosaurs);
+const main = document.querySelector('main');
 
-console.log('id: ', id);
-console.log(dinosaurs);
-console.log(dino);
+const dinoDetail = renderDinoDetail(dino);
+main.append(dinoDetail);
 
 function createDataList (dino) {
     const ul = document.createElement('ul');
