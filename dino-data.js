@@ -5,7 +5,7 @@ const dinosaurs = [
         period: 'Cretaceous',
         suborder: 'Theropoda',
         length: 40,
-        image: 'tyrannosaurus.png'
+        image: 'tyrannosaurus2.png'
     },
     {
         id: '2',
@@ -21,7 +21,7 @@ const dinosaurs = [
         period: 'Jurassic',
         suborder: 'Thyreophora',
         length: 28,
-        image: 'stegosaurus.png'
+        image: 'stegosaurus2.jpg'
     },
     {
         id: '4',
@@ -29,6 +29,7 @@ const dinosaurs = [
         period: 'Cretaceous',
         suborder: 'Thyreophora',
         length: 23,
+        image: 'ankylosaurus.png'
     },
     {
         id: '5',
@@ -36,6 +37,7 @@ const dinosaurs = [
         period: 'Triassic',
         suborder: 'Theropoda',
         length: 6,
+        image: 'Coelophysis.jpg'
     }
 
 ];
